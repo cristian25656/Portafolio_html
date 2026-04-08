@@ -1,0 +1,11 @@
+body {background-color: blanchedalmond;
+color: black;}
+button {color: rgb(black);
+background-color: rgb(255, 250, 160);
+display: block;
+ margin-left: 800px;
+  margin-top: 0px;
+}
+#imagenuno{ margin-left: 800px;
+            margin-top: 0px
+}
