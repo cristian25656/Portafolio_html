@@ -8,10 +8,10 @@
     <meta name="keywords" content="portafolio, Cristian David Del Castillo Ruiz">
     <meta name="description"
         content="Soy un desarrollador junior de 23 años apasionado por la tecnología y el aprendizaje constante.
-         He trabajado en diversos proyectos que forman parte de mi portafolio, donde he aplicado habilidades en desarrollo web, lógica de programación y resolución de problemas. 
-         Me caracterizo por ser curioso, disciplinado y siempre dispuesto a mejorar, buscando oportunidades para crecer profesionalmente y aportar valor en cada proyecto en el que participo.">
+        He trabajado en diversos proyectos que forman parte de mi portafolio, donde he aplicado habilidades en desarrollo web, lógica de programación y resolución de problemas. 
+        Me caracterizo por ser curioso, disciplinado y siempre dispuesto a mejorar, buscando oportunidades para crecer profesionalmente y aportar valor en cada proyecto en el que participo.">
     <title>Cristian David Del castillo Ruiz</title>
-    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/styles.css">
     <link rel="shortcut icon"
         href="public/icons/icon-portfolio-suitable-for-art-symbol-blue-eyes-style-simple-design-editable-design-template-simple-illustration-vector.jpg"
         type="image/x-icon">
@@ -19,35 +19,49 @@
 
 <body>
     <header>
-        <img src="public/icons/user-blue_40487.webp" alt="" width="30">
-        <img src="public/icons/instagram 2.avif" alt="" width="30">
-        <img src="public/icons/github.png" alt="" width="50">
-        <h2>Portafolio</h2>
+        <nav>
+            <ul id="none">
+                <li><h2>Cristian David Del Castillo Ruiz</h2></li>
+                <li> <button class="por" type="button" style="width: 4vmax; height: 2vmax;">Inicio</button></li>
+                <li><button class="por" type="button" style="width: 6vmax; height: 2vmax;">Proyectos</button></li>
+                <li><button class="por" type="button" style="width: 6vmax; height: 2vmax;">Servicios</button></li>
+                <li><button class="por" type="button" style="width: 6vmax; height: 2vmax;">contacto</button></li>
+            </ul>
+        </nav>
         <hr>
     </header>
-    <nav>
-        <button type="button" style="width: 4vmax; height: 2vmax;">Inicio</button>
-        <button type="button" style="width: 6vmax; height: 2vmax;">Proyectos</button>
-        <button type="button" style="width: 6vmax; height: 2vmax;">Servicios</button>
-        <button type="button" style="width: 6vmax; height: 2vmax;">Contacto</button>
-        <hr>
-    </nav>
-
+    
     <main>
-        <article>
-            <h1>Hola, soy:</h1>
-            <h2>Cristian Del Castillo</h2>
-            <p>Soy un <span style="color: red;">desarrollador</span> junior de 23 años apasionado por la tecnología y el
+        <section id="proyectos">
+            <p> Soy un <span style="color: red;">desarrollador</span> junior de 23 años apasionado por la tecnología y el
                 aprendizaje constante. He trabajado en diversos proyectos que forman parte de mi portafolio, donde he
                 aplicado habilidades en desarrollo web, lógica de programación y resolución de problemas. Me caracterizo
                 por ser curioso, disciplinado y siempre dispuesto a mejorar, buscando oportunidades para crecer
-                profesionalmente y aportar valor en cada proyecto en el que participo.</p>
+                profesionalmente y aportar valor en cada proyecto en el que participo.
+            </p>
+        </section>
+        <hr>
+    
+        <article>
+            <h1 class="ppp">Hola, soy:</h1>
+            <h2 class="ppp">Cristian Del Castillo</h2>
+            
             <hr>
             <img id="imagenuno" src="public/img/WhatsApp Image 2026-04-09 at 12.30.28.jpeg" alt="" width="304">
         </article>
     </main>
 
-    <footer></footer>
+    <footer> 
+        <div>
+            <form action="" name="contacto">Contacto:</form>
+            <input type="text" name="contacto" id="">
+            <a href="https://github.com/cristian25656" target="_blank" rel="noopener noreferrer" class="github-link">
+            <img src="public/icons/github(1).svg" alt="GitHub de Cristian del Castillo" width="30" ></a>
+            <a href="https://www.instagram.com/amore._.cris?igsh=ZjFxMXMxaDM4YmFk" target="_blank" rel="noopener noreferrer" class="instagram-link">
+            <img src="public/icons/instagram.svg" alt="Instagram de Cristian Del Castillo" width="30"></a>
+            <a href="https://wa.me" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+            <img src="public/icons/whatsapp.svg" alt="WhatsApp de Cristian del Castillo" width="30"></a>
+        </div>
+    </footer>
 </body>
-
 </html>

@@ -1,0 +1,43 @@
+body {background-color: blanchedalmond;
+color: black;
+ font-family: 'Roboto', sans-serif;
+}
+#imagenuno {
+    margin-left: 800px;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: transform 0.3s ease, outline 0.2s ease;
+    border-radius: 4%;
+}
+#imagenuno:hover {
+        transform: scale(1.05);        
+        outline: 1px solid rgb(0,0,0);  
+}
+.por {  
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight:bold;
+        box-shadow: 2px 2px 5px (#fad9a6);
+        height: 2vmax;
+        padding: 0 1vmax; 
+        background-color: #fad9a6;
+       }
+h2 { 
+        font-family: 'roboto, sans-se';
+        margin: 0;                       
+}
+
+#none {
+        display: flex;             
+        justify-content: flex-end; 
+        list-style: none;          
+        gap: 10px;                 
+        padding: 0;                
+}
+#none li:first-child {
+    margin-right: auto; }
+
+
+
+
+
