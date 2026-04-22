@@ -4,7 +4,7 @@
         list-style: none;          
         gap: 10px;                 
         padding: 0; 
-        border-radius: 20px;           
+        border-radius: 20px;          
 }
 .none li:first-child {
     margin-right: auto;
